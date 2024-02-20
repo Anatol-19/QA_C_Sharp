@@ -1,0 +1,15 @@
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\bin\Debug\net8.0\Lesson_1_BQA.exe
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\bin\Debug\net8.0\Lesson_1_BQA.deps.json
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\bin\Debug\net8.0\Lesson_1_BQA.runtimeconfig.json
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\bin\Debug\net8.0\Lesson_1_BQA.dll
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\bin\Debug\net8.0\Lesson_1_BQA.pdb
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.AssemblyInfoInputs.cache
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.AssemblyInfo.cs
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.csproj.CoreCompileInputs.cache
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.sourcelink.json
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.dll
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\refint\Lesson_1_BQA.dll
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.pdb
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\Lesson_1_BQA.genruntimeconfig.cache
+C:\Users\Kisel\Study_C#\Lesson_1_BQA\Lesson_1_BQA\obj\Debug\net8.0\ref\Lesson_1_BQA.dll
