@@ -8,47 +8,87 @@ namespace Program
 {
     internal class Autotest
     {
-        static void Main(string[] args)
+        private IWebDriver driver;
+        private WebDriverWait wait;
+
+        public Autotest()
         {
-            IWebDriver driver = new ChromeDriver();
+            driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(19));
-           
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(19));
+        }
+
+        public void ToUrl(string url)
+        {
+            driver.Navigate().GoToUrl(url);
+        }
+        
+        public void ToFrame(IWebElement frame)
+        {
+            driver.SwitchTo().Frame(frame);
+        }
+        
+        public IWebElement FindErByXPath(string xpath)
+        {
+            return wait.Until(d => d.FindElement(By.XPath(xpath)));
+        }
+
+        public IWebElement FindErByCss(string selector)
+        {
+            return wait.Until(d => d.FindElement(By.CssSelector(selector)));
+        }
+
+        public static void Main(string[] args)
+        { 
+            Autotest a = new Autotest();
+            
             // Заход на Портал
-            driver.Navigate().GoToUrl("https://b24-wk32l8.bitrix24.ru/");
-            IWebElement LogInput = driver.FindElement(By.XPath("//input[@id='login']"));
+            a.ToUrl("https://b24-wk32l8.bitrix24.ru/");
+            IWebElement LogInput = a.FindErByXPath("//input[@id='login']");
             LogInput.SendKeys("anatol@staffonly39.ru");
             Thread.Sleep(1900);
             LogInput.SendKeys(Keys.Enter);
-            IWebElement PassInput = wait.Until(d => d.FindElement(By.XPath("//input[@id='password']")));
+            IWebElement PassInput = a.FindErByXPath("//input[@id='password']");
             PassInput.SendKeys("Zu7XGGbFwJ9zqiQ");
             PassInput.SendKeys(Keys.Enter);
            
             // Навигация
             //// Кнопка новая задача
-            IWebElement NewTaskBtn = wait.Until(d => d.FindElement(By.XPath("//*[@id='tasks-buttonAdd']"))); 
+            IWebElement NewTaskBtn = a.FindErByXPath("//*[@id='tasks-buttonAdd']"); 
             NewTaskBtn.Click();
-            //// Всплывашка новой задачи
-            IWebElement NewTaskForm = wait.Until(d => d.FindElement(By.XPath("//*[@id='iframe_lpp0wdh3ak']")));
-            driver.SwitchTo().Frame(NewTaskForm);
-            ////Форма
-            IWebElement AllInput4Task = driver.FindElement(By.XPath("//*[@id='task-form-bitrix_tasks_task_default_1']"));
-            //// Ввод названия задачи
-            IWebElement TaskTitle = AllInput4Task.FindElement(By.XPath("//*input[@data-bx-id='task-edit-title']"));
-            TaskTitle.SendKeys("Alo");
 
-            Thread.Sleep(1900);
+            //// Всплывашка новой задачи
+            a.ToFrame(a.FindErByCss("iframe.side-panel-iframe"));
            
+            ////Форма
+            //// Ввод названия задачи
+            IWebElement TaskTitle = a.FindErByXPath("/html/body/div[2]/div[2]/div/form/div[1]/div[1]/div[2]/input");
+            TaskTitle.SendKeys("ЗаголовИще");
+            
             //// Описание задачи
-            var DescrIFrame = driver.FindElement(By.XPath("//*[@id='bx-html-editor-iframe-cnt-bitrix_tasks_task_default_1']/iframe"))
-            driver.SwitchTo().Frame(DescrIFrame);
-                ("/html/body")
+            IWebElement DescrIFrame = a.FindErByXPath("//*[@id='bx-html-editor-iframe-cnt-bitrix_tasks_task_default_1']/iframe");
+            a.ToFrame(DescrIFrame);
+            IWebElement DescFuel = a.FindErByXPath("/html/body");
+            DescFuel.SendKeys("Новое описание задачи");
 
             //// Поле дата
-            //// Всплыввашка календаря
+            //IWebElement Data = a.FindErByCss("input.task-options-inp");
+            //Thread.Sleep(1900);
+            //Data.SendKeys("12.08.2024 18:00");
+
             //// Раскрыть доп поля
-            //// Чек бокс регулярного события
+            IWebElement MoreBtn = a.FindErByCss(".task-additional-alt-more");
+            Thread.Sleep(1900);
+            MoreBtn.Click();
+            
+            /// Чек бокс регулярного события
+            IWebElement RegBox = a.FindErByXPath(
+                    "//*[@id='task-form-bitrix_tasks_task_default_1']/div[4]/div[2]/div[4]/div/div/label/input[1]");
+            RegBox.Click();
             //// Кнопка Поставить задачу
+            IWebElement tskBtn = a.FindErByXPath("//*[@id='task - form - bitrix_tasks_task_default_1']/div[5]/div/button[1]");
+            tskBtn.Click();
+            Thread.Sleep(1900);
         }
     }
 }

@@ -8,59 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a6f4d6-0fb1-4e28-af13-68d58cd2e32f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_2_BQA/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_2_BQA/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_2_BQA/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_2_BQA/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/bin/Debug/net6.0/Lesson_2_BQA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/bin/Debug/net6.0/Lesson_2_BQA.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/bin/Debug/net6.0/Lesson_2_BQA.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/bin/Debug/net6.0/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/bin/Debug/net6.0/selenium-manager/linux/selenium-manager" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/bin/Debug/net6.0/selenium-manager/macos/selenium-manager" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/Lesson_2_BQA.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Debug/net6.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Lesson_2_BQA.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Lesson_2_BQA.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/Lesson_2_BQA.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_2_BQA/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Net Project.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/Lesson2.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Debug/net6.0/Lesson2.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Debug/net6.0/Lesson2.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Debug/net6.0/Lesson2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Debug/net6.0/Lesson2.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Debug/net6.0/Lesson2.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Debug/net6.0/Lesson2.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Lesson2.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Lesson2.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Lesson2.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Release/net6.0/Lesson2.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Release/net6.0/Lesson2.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Release/net6.0/Lesson2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Release/net6.0/Lesson2.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Release/net6.0/Lesson2.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/Release/net6.0/Lesson2.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson2/Lesson2/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lesson_2_BQA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lesson_2_BQA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_2_BQA/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_2_BQA/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,21 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="IWebDriver driver = new ChromeDriver();" />
@@ -131,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709643067783</updated>
       <workItem from="1709643075115" duration="13439000" />
+      <workItem from="1709714110637" duration="13083000" />
     </task>
     <servers />
   </component>
