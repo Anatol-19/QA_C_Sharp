@@ -50,7 +50,7 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/123.0.6312.2200-beta": {
+      "Selenium.WebDriver.ChromeDriver/122.0.6261.9400": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -120,10 +120,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/123.0.6312.2200-beta": {
-      "sha512": "NrQ6TScDTohknmOW/dGoWvspQKAyvMT5fViS2Rvkt0POJ5CNndom4n4jKPauSPeACOHSowjIp9rPGvg2OKYHjw==",
+    "Selenium.WebDriver.ChromeDriver/122.0.6261.9400": {
+      "sha512": "u0kWy6d0mp0YxVVHg1+G6yuNi/2+O+eRejc3SdJ1Ep8akq4OsFBOw+VUsW9CAH2jIdX8DWBdsAcu2ZE6TFsA9g==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/123.0.6312.2200-beta",
+      "path": "selenium.webdriver.chromedriver/122.0.6261.9400",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -140,7 +140,7 @@
         "driver/win32/LICENSE.chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.123.0.6312.2200-beta.nupkg.sha512",
+        "selenium.webdriver.chromedriver.122.0.6261.9400.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     }
@@ -149,7 +149,7 @@
     "net6.0": [
       "Selenium.Support >= 4.18.1",
       "Selenium.WebDriver >= 4.18.1",
-      "Selenium.WebDriver.ChromeDriver >= 123.0.6312.2200-beta"
+      "Selenium.WebDriver.ChromeDriver >= 122.0.6261.9400"
     ]
   },
   "packageFolders": {
@@ -199,7 +199,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[123.0.6312.2200-beta, )"
+            "version": "[122.0.6261.9400, )"
           }
         },
         "imports": [
