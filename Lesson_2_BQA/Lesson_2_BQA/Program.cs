@@ -66,7 +66,7 @@ namespace Program
             TaskTitle.SendKeys("ЗаголовИще");
             
             //// Описание задачи
-            IWebElement DescrIFrame = a.FindErByXPath("//*[@id='bx-html-editor-iframe-cnt-bitrix_tasks_task_default_1']/iframe");
+            IWebElement DescrIFrame = a.FindErByCss("#bx-html-editor-iframe-cnt-bitrix_tasks_task_default_1 > iframe");
             a.ToFrame(DescrIFrame);
             IWebElement DescFuel = a.FindErByXPath("/html/body");
             DescFuel.SendKeys("Новое описание задачи");
@@ -77,13 +77,16 @@ namespace Program
             //Data.SendKeys("12.08.2024 18:00");
 
             //// Раскрыть доп поля
-            IWebElement MoreBtn = a.FindErByCss(".task-additional-alt-more");
+            /// /html/body/div[2]/div[2]/div/form/div[4]/div[1]/div[1]
+            /// #task-form-bitrix_tasks_task_default_1 > div.task-additional-block > div.task-additional-alt > div.task-additional-alt-more
+            IWebElement MoreBtn = a.FindErByCss("div.task-additional-alt-more");
             Thread.Sleep(1900);
             MoreBtn.Click();
             
             /// Чек бокс регулярного события
-            IWebElement RegBox = a.FindErByXPath(
-                    "//*[@id='task-form-bitrix_tasks_task_default_1']/div[4]/div[2]/div[4]/div/div/label/input[1]");
+            /// #bx-component-scope-bitrix_tasks_widget_timeestimate_1 > label > input
+            IWebElement RegBox = a.FindErByCss(
+                    "#bx-component-scope-bitrix_tasks_widget_timeestimate_1 > label > input");
             RegBox.Click();
             //// Кнопка Поставить задачу
             IWebElement tskBtn = a.FindErByXPath("//*[@id='task - form - bitrix_tasks_task_default_1']/div[5]/div/button[1]");
