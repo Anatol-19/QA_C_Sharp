@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lesson_1_BQA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8be4946d10fb236fc48b07f6c3bef88ffefdf45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e5251158fdb4a503a52ee8bdfc43ff14f8a6f7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lesson_1_BQA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lesson_1_BQA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

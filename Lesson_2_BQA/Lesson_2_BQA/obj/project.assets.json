@@ -153,24 +153,26 @@
     ]
   },
   "packageFolders": {
-    "/home/anatol-qa/.nuget/packages/": {}
+    "C:\\Users\\Kisel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/anatol-qa/Study_QA/Study_C#/Lesson_2_BQA/Lesson_2_BQA/Lesson_2_BQA.csproj",
+      "projectUniqueName": "C:\\Users\\Kisel\\Study_C#\\Lesson_2_BQA\\Lesson_2_BQA\\Lesson_2_BQA.csproj",
       "projectName": "Lesson_2_BQA",
-      "projectPath": "/home/anatol-qa/Study_QA/Study_C#/Lesson_2_BQA/Lesson_2_BQA/Lesson_2_BQA.csproj",
-      "packagesPath": "/home/anatol-qa/.nuget/packages/",
-      "outputPath": "/home/anatol-qa/Study_QA/Study_C#/Lesson_2_BQA/Lesson_2_BQA/obj/",
+      "projectPath": "C:\\Users\\Kisel\\Study_C#\\Lesson_2_BQA\\Lesson_2_BQA\\Lesson_2_BQA.csproj",
+      "packagesPath": "C:\\Users\\Kisel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kisel\\Study_C#\\Lesson_2_BQA\\Lesson_2_BQA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/anatol-qa/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Kisel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -183,6 +185,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -208,7 +215,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -217,7 +225,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.127/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
